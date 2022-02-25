@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1515px;
+    height: auto;
+}
+
+
+
+
+/* NAVBAR */
+
+.head{
+    width: 100%;
+    height: 119px;
+    background-color: rgb(34,34,34);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: sticky !important;
+    top: -60px;
+    left: 0;
+    z-index: 1;
+}
+.head a{
+    text-decoration:none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.h-row1{
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.h-row1 a{
+    color: rgb(168,168,168);
+    font-weight: 600;
+}
+.left-side{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-side{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(67,67,67);
+}
+
+
+
+.h-row2{
+    width: 90vw;
+    height: 50px;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(34,34,34);
+}
+.h-row2 i{
+    color:white;
+}
+.h-row2 img{
+    background-color: black;
+    width: 170px;
+}
+
+
+/* puski item */
+
+#pop-item{
+    width: 50%;
+    margin: 20px auto;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mens-watch{
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mens-watch:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.flex{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mens-watch h4{
+    font-size: 25px;
+    font-weight: 900;
+}
+.mens-watch .cart{
+    width: 50%;
+    height: 30px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.mens-watch .rate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.rate p, del{
+    font-size: 20px;
+}
+.rupee{
+     font-size: 16px;
+     color: black;
+     font-weight: 900;
+}
+.rate del{
+    color: rgb(185,164,148);
+}
+.rate .offer{
+    color: rgb(250,87,85);
+    font-weight: 900;
+}
+.btn button{
+    background-color: royalblue;
+   font-size: 12px;
+   color: white;
+   padding: 2px 8px;
+   font-family: 'Work Sans', sans-serif;
+   border: none;
+   margin: 10px 5px;
+}
+
+
+/* similar data */
+
+.similar-products1,.similar-products2{
+    width: 80%;
+    margin: 20px auto;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.card{
+    width: 265px;
+    height: 360px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.card .pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  align-items: center;
+}
+
+.pricing p, del{
+    margin-right: 10px;
+}
+.rupees{
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+}
+.pricing del{
+    color: rgb(185,164,148);
+}
+.offers{
+    color: rgb(250,87,85);
+    font-weight: 900;
+}
+.buttoons button{
+    background-color: royalblue;
+   font-size: 12px;
+   color: white;
+   padding: 2px 8px;
+   font-family: 'Work Sans', sans-serif;
+   border: none;
+   margin: 10px 5px;
+}
+
+
+
+
+
+/* Foot-rw1 */
+
+.foot-rw1{
+    background-color: rgb(246,246,246);
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.accordion{
+    border: none;
+    width: 500px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.accordion ion-icon{
+    font-size: 25px;
+}
+.foot-rw1 h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(34,34,34);  
+    letter-spacing: 0.266em;
+}
+.location{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pincode{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(34,34,34);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: space-around;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.location input{
+    width: 200px;
+    margin: 0px 15px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.location button{
+    width: 70px;
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
+}
+
+
+
+/* poster-popup */
+.poster-popup{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+.popup-left{
+    width: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    font-family: 'Work Sans', sans-serif;
+font-size: 16px;
+margin-top: 20px;
+position: sticky;
+top: 60px;
+left: 0;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+padding: 20px 30px;
+}
+.popup-left p{
+    margin: 20px 0px;
+text-align: start;
+font-weight: 700;
+}
+.popup-left p:hover{
+   color: orange;
+   border-bottom: 1px solid orange;
+}
+
+
+.popup-right{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+}
+.popup-right img{
+    margin: 10px 0px;
+}
+
+
+/* .more-products */
+
+.more-products{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.more-products h2{ 
+    width: 100%;
+     font-size: 30px;
+     font-family: 'Work Sans', sans-serif;
+     text-align: center;
+     margin: 60px auto;
+    }
+
+
+/* Footer */
+.knowus{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(34,34,34);
+    color: white;
+    padding-top: 25px;
+}
+.knowus h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 100;
+}
+.knowus ul{
+    font-size: 12px;
+    width: 170px;
+    height: 170px;
+    text-align: start;
+    color: white;
+    list-style: none;
+}
+.knowus li{
+    margin-bottom: 8px;
+    margin: 15px 0px;
+
+}
+.knowus li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.knowus li a:hover{
+    color: orange;
+}
+
+
+#dowapp{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+#sociallink{
+    display: flex;
+    flex-direction: column;
+}
+#img-1, #img-2{
+     width: 150px;
+     height: 60px;
+}
+#sociallink i{
+    width: 40px;
+    font-size: 25px;
+}
+#svg{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* last-row */
+.last-foot{
+    background-color: rgb(34,34,34);
+}
+.last-foot img{
+    width: 98%;
+    height: auto;
+}
+.last-foot:hover{
+    cursor: not-allowed;
+}
+
+
+@media(max-width:800px){
+    .head{
+        height: auto;
+        width: 100%;
+    }
+    .h-row1{
+        display: none;
+    }
+    .h-row2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        height: 400px;
+        font-size: 16px;
+        padding: 20px;
+    }
+    .h-row2 h4{
+        margin: 20px 0px;
+    }
+    .h-row2 h4:hover{
+        color:  orange;
+        cursor: pointer;
+    }
+    .foot-rw2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .foot-rw2 > div{
+         margin: 20px;
+         font-size: 18px;
+    }
+    .knowus{
+        width: 80%;
+        margin: auto;
+    }
+    #know{
+        display: none;
+    }
+    #know2 , #know3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .last-foot{
+        display: none;
+    }
+}

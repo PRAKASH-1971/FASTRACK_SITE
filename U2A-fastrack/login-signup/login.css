@@ -1,0 +1,171 @@
+.login-page ,.SIGNUP-page{
+    width: 1515px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.login-page .part, .signup-page .part{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1200px;
+    border-radius: 10px;
+    margin: 40px auto;
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 10px;
+    
+}
+
+
+/* part-1 */
+
+.part .part-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.part-1 img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+                                          /* part 2 */
+
+.part-2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+    padding: 25px;
+}
+
+.part-2 .head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-right: 2px solid black;
+    padding-right: 50px;
+}
+.head h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.head p{
+    font-size: 20px;
+}
+.head input{
+border: none;
+border-bottom: 1px solid rgb(39, 37, 37);
+width: 400px;
+height: 60px;
+margin-bottom: 20px;
+}
+#login-go{
+    border: none;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
+}
+#loginpage{
+    border: none;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
+}
+#login-go a{
+    text-decoration: none;
+    color: black;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    font-size: 18px;
+}
+.bottom a{
+    text-decoration: none;
+    color: black;
+}
+.txt2{
+text-align: center;
+}
+.txt2 a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}

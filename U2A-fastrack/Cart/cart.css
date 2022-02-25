@@ -1,0 +1,372 @@
+
+.head{
+    width: 100%;
+    height: 119px;
+    background-color: rgb(34,34,34);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: sticky !important;
+    top: -60px;
+    left: 0;
+    z-index: 1;
+}
+.head a{
+    text-decoration:none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.h-row1{
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.h-row1 a{
+    color: rgb(168,168,168);
+    font-weight: 600;
+}
+.left-side{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-side{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(67,67,67);
+}
+.h-row2{
+    width: 90vw;
+    height: 50px;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(34,34,34);
+}
+.h-row2 i{
+    color:white;
+}
+.h-row2 img{
+    background-color: black;
+    width: 170px;
+}
+
+
+/* cart-items */
+.body{
+    width: 100%;
+    height: fit-content;
+}
+.items{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.cart-items{
+    width: 65%;
+    height: auto;
+    padding: 20px 0px;
+} 
+.summary{
+    width: 35%;
+    height: 600px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 80px;
+    right: 0;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.summary > div{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    margin: 10px 0px;
+    height: 30px;
+}
+.summary p{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.summary h6{
+    font-size: 17px;
+    margin: 10px 0px;
+
+}
+.summary h3{
+    font-size: 22px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+.summary .pay{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.summary a{
+    width: 70%;
+    margin: 10px auto;
+    color: black;
+    font-size: 18px;
+}
+.payment{
+    width: 70%;
+    height: 40px;
+    background-color: orange;
+    margin: 20px 0px;
+    border: none;
+}
+
+.promo input{
+    border: none;
+    border-bottom: 1px solid orange;
+    width: 70%;
+    height: 30px;
+}
+.promo button{
+    color: black;
+    background-color: orange;
+    border: none;
+  padding: 10px;
+}
+
+.delete-cart{
+    background-color: orange;
+    margin: 10px 10px;
+}
+
+/* recently viewed */
+
+
+/* items  */
+.mens-watch{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.delete-cart{
+    border: none;
+}
+
+
+
+
+
+.foot{
+    width: 100%;
+    height: fit-content;
+}
+.trending-products{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.trending-products h2{
+    font-size: 30px;
+    margin: 40px 0px 55px 0px;
+}
+.trending-p-row{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: auto;
+}
+.trending-products h4{
+    font-size: 13px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.trending-products-images{
+    width: 255px;
+    height: auto;
+    font-family: 'Roboto Serif', sans-serif;
+    margin-right: 25px;
+    padding: 10px;
+}
+.trending-products-images:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.trending-p-row::-webkit-scrollbar {
+    display: none;
+  }
+.trending-products-images img{
+    width: 255px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trending-products-images .rate{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+.rete p{
+    margin-right: 30px;
+    font-size: 13px;
+}
+.rate del{
+    font-size: 13px;
+}
+
+
+/* Footer */
+.knowus{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(34,34,34);
+    color: white;
+    padding-top: 25px;
+}
+.knowus h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 100;
+}
+.knowus ul{
+    font-size: 12px;
+    width: 170px;
+    height: 170px;
+    text-align: start;
+    color: white;
+    list-style: none;
+}
+.knowus li{
+    margin-bottom: 8px;
+    margin: 15px 0px;
+
+}
+.knowus li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.knowus li a:hover{
+    color: orange;
+}
+
+
+#dowapp{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+#sociallink{
+    display: flex;
+    flex-direction: column;
+}
+#img-1, #img-2{
+     width: 150px;
+     height: 60px;
+}
+#sociallink i{
+    width: 40px;
+    font-size: 25px;
+}
+#svg{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* last-row */
+.last-foot{
+    background-color: rgb(34,34,34);
+}
+.last-foot img{
+    width: 98%;
+    height: auto;
+}
+.last-foot:hover{
+    cursor: not-allowed;
+}
+
+
+@media(max-width:800px){
+    .head{
+        height: auto;
+        width: 100%;
+    }
+    .h-row1{
+        display: none;
+    }
+    .h-row2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        height: 400px;
+        font-size: 16px;
+        padding: 20px;
+    }
+    .h-row2 h4{
+        margin: 20px 0px;
+    }
+    .h-row2 h4:hover{
+        color:  orange;
+        cursor: pointer;
+    }
+    .foot-rw2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .foot-rw2 > div{
+         margin: 20px;
+         font-size: 18px;
+    }
+    .knowus{
+        width: 80%;
+        margin: auto;
+    }
+    #know{
+        display: none;
+    }
+    #know2 , #know3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .last-foot{
+        display: none;
+    }
+}
